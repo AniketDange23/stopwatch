@@ -1,0 +1,36 @@
+ body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+ }
+ .watch{
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: none;
+    background-color: aqua;
+   
+ }
+
+#stopwatch {
+    
+  
+    padding: 20px;
+    display: flex;
+    box-sizing: border-box;
+  }
+  
+  #stopwatch p {
+    margin: 0 5px;
+    font-size: 20px;
+   
+  }
+  button{
+    background: rgb(0, 0, 0);
+    border: none !important;
+    border-radius: 25px;
+    color: white;
+    width: 70px;
+    padding: 10px;
+  }
